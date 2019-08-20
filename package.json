@@ -8,9 +8,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --prod --base-href https://PaarthR.github.io/my-app-demo/ && angular-cli-ghpages --branch/my-app-demo gh-pages",
-    "new":"ng build --prod --base-href https://PaarthR.github.io/my-app-demo/",
-    "newd":"ngh --dir=dist/my-app-demo/"
+    "deploy": "ng build --prod --base-href https://PaarthR.github.io/my-app-demo/ && angular-cli-ghpages --branch gh-pages",
+    "step1":"ng build --base-href https://paarthr.github.io/my-app-demo/",
+    "step2":"ngh --dir dist/my-app-demo/"
   },
   "private": true,
   "dependencies": {
