@@ -10,8 +10,9 @@
     "e2e": "ng e2e",
     "deploy": "ng build --prod --base-href https://PaarthR.github.io/my-app-demo/ && angular-cli-ghpages --branch gh-pages",
     "step1":"ng build --base-href https://paarthr.github.io/my-app-demo/",
-    "step2":"sudo ngh --dir dist/my-app-demo",
-    "newD":"ng build --prod --output-path docs --base-href /<project_name>/"
+    "step2":"sudo ngh --dir dist/my-app-demo/",
+    "newD":"ng build --message='First deploy' --branch=production --dry-run --prod --output-path docs --base-href /<project_name>/",
+    "d":"ng deploy --repo=https://github.com/PaartR/my-app-demo.git --name='PaartR'"
   },
   "private": true,
   "dependencies": {
